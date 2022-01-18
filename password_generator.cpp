@@ -30,5 +30,9 @@ int main(int argc, char* argv[]){
     else if(string_view(argv[1]) == "-r" or string_view(argv[1]) == "--range"){
         args(argv[2]);
     }
+    else{
+      cerr << "Invalid args!\nUsage: " << argv[0] << "-r||--range [INTEGER-RANGE]" << endl;
+      exit(0); 
+    }
     return 0;
 }

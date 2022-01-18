@@ -6,8 +6,6 @@
   <img src="https://img.shields.io/github/license/DioBruh/password-generator">
   <img src="https://img.shields.io/badge/password-generator-2ea44f">
 </p>
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
 
 <h2 align="center">
   <p>Language<br><br>

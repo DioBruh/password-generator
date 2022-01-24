@@ -14,6 +14,7 @@ int string_length = sizeof(alphanum) - 1;
 void args(string n){
     int i;
     int j = stoi(n);
+    srand((unsigned int)time(NULL));
     for(i = 0; i < j; i++){
         cout << alphanum[rand() % string_length];
     }

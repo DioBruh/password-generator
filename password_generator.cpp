@@ -4,6 +4,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <experimental/string_view>
+#include <time.h>
 
 using namespace std;
 using namespace experimental;
